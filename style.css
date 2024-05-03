@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+    
+.corpo{
+    background: #000000 url(imagens/fundo.jpg) no-repeat top;
+}
+
+
+/*começo do cabecalho*/
+header{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background:#000000b0;
+
+}
+
+.caixa1{
+    width: 50%;
+    padding-left: 325px;
+    
+    
+}
+
+.caixa2{
+    width: 50%;
+    text-align: right;
+    line-height: 45px;
+    padding-right: 325px;
+    
+ 
+}
+
+.caixa2 button{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    background: #ff0000;
+}
+
+.caixa2 select{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    background: #111111;
+}
+/*final do cabecalho*/
+
+
+/*começo da caixa 1*/
+section{
+    margin: 0 0;
+    height: 705px;
+    padding-top: 280px;
+    color: white;
+    text-align: center;
+    background:#000000a9;
+}
+
+section input{
+    width: 350px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1em;
+    background: #5ab5ff5b;
+    border: 1px solid white;
+}
+
+section button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1em;
+    background: #ff0000;
+}
+
+/*final da caixa 1*/
+
+
+#container{
+    width: 70%;
+    margin: 0 auto; 
+   
+}
+
+
+/*começo da caixa 2*/
+.div1{
+    background: linear-gradient( to left, #c71212, #2f00ff, #0d0463, #7de9e9, #0d0463, #2f00ff, #f00303);
+    height: 350px;
+    font-size: 1.6em;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 20px;
+}
+
+.div1 a{
+    text-decoration: none;
+    color: #ff0000;
+}
+/*final da caixa 2*/
+
+/*começo da caixa 3*/
+.div2{
+    height: 400px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.texto1{
+    
+    width: 50%;
+    font-size: 1.4em;
+    padding-top: 130px;
+}
+
+.texto2{
+    background: url(imagens/tv.png) no-repeat top ;
+    width: 50%;
+}
+/*final da caixa 3*/
+
+/*começo da caixa 4*/
+.div3{
+    height: 400px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.texto3{
+    width: 50%;
+    
+}
+
+.texto4{
+    padding-top: 110px;
+    width: 50%;
+    font-size: 1.4em;
+}
+/*final da caixa 4*/
+
+/*começo da caixa 5*/
+.div4{
+    height: 400px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.texto5{
+    
+    width: 50%;
+    font-size: 1.4em;
+    padding-top: 130px;
+}
+
+.texto6{
+    
+    width: 50%;
+}
+/*final da caixa 5*/
+
+/*começo da caixa 6*/
+.div5{
+    height: 400px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.texto7{
+    width: 50%; 
+}
+
+.texto8{
+   
+    width: 50%;
+    font-size: 1.4em;
+    padding-top: 130px;
+}
+/*final da caixa 6*/
+
+hr{
+    height: 3px;
+}
+
+/*inicio da caixa 7*/
+
+.menu{
+    
+    height: 550px;
+    padding-left: 265px;
+    padding-top: 5px;
+    
+    
+}
+
+.menu h1{
+    
+    padding: 0 0 20px 220px;
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0 auto;
+    padding: 4px 0;
+    
+    
+}
+
+ .menu button{
+    
+    width: 800px;
+    height: 60px;
+    text-align: left;
+    line-height: 60px;
+    font-size: 1.3em;
+    background: #111111;
+    border: 2;
+    text-align: center
+    
+    
+ }
+
+ .menu button:focus{
+    
+    width: 800px;
+    height: 170px;
+    line-height: 37px;
+    
+ }
+/*final da caixa 7*/
+
+/*começo do rodape*/
+footer{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.final1{
+    width: 350px;
+    
+}
+.final2{
+    width: 250px;
+   
+}
+
+.final3{
+    width: 250px;
+    
+}
+.final4{
+    width: 250px;
+    
+}
+
+footer ul li{
+    list-style: none;
+    padding: 5px 0;
+}
