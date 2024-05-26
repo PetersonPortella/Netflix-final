@@ -1,0 +1,46 @@
+@media all and (min-width:319px) and (max-width:768px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 100%;
+    }
+
+
+    header{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .caixa1{
+        margin:0 auto;
+        padding-top: 160px;
+    }
+
+    .caixa2{
+        margin-left: 32%;
+        padding-top: 60px;
+    }
+
+
+    section{
+        font-size: 14px;
+    }
+
+    input{
+        margin-top: 40px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+}
